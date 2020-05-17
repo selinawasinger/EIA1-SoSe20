@@ -1,0 +1,194 @@
+body {
+    background-image: url("bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+
+  h1 {
+      font-size: 150px;
+      letter-spacing: -17px;
+      position: relative;
+      bottom: 390px;
+      color: white;
+     
+      }
+
+  .name{
+      font-size: 30px;
+      position: relative;
+      bottom: 520px;
+      left: 110px;
+      color: white;
+      letter-spacing: -3px;
+     
+     }
+
+ .text {
+    font-size: 10px;
+    text-align: left;
+    margin: auto;
+    width: 15%;
+    border: 3px;
+    padding: 10px;
+    position: relative;
+    bottom: 575px;
+    left: 72px;
+    font-weight: 200;
+    color: white;
+  
+    }
+
+  .icon{
+      position: relative;
+      bottom: 590px;
+      right: 10px;
+      opacity: 0.5;
+    
+  }
+
+  .icon:hover {
+      opacity: 1.0;
+  }
+
+.designs {
+    color: #800040;
+    font-size: 20px;
+    position: relative;
+    bottom: 500px;
+    right: 330px;
+}
+
+.foto1 {
+    position: relative;
+    bottom: 500px;
+}
+
+
+.navi {
+    background-color: #000000;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-radius: 50px;
+}
+
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    border-right: solid 1px white;
+    background: #000000;
+    padding: 5px 8px 5px 5px;
+}
+
+.navi1{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.navi2{
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: #800040;
+}
+
+a.active {
+    color: #800040;
+    text-decoration: underline;
+}
+
+li a.activepage{
+    color: #800040;
+    font-weight: bold;
+   
+}
+
+
+
+.circle{
+    position: relative;
+    display: block;
+    margin: -35px auto;
+    width: 700px;
+}
+
+
+.foto {
+    position: relative;
+    bottom: 500px;
+    background: white;
+    padding: 10px;
+    width: 288px;
+    height: 360px;
+    left: 510px;
+
+    }
+
+.kreisrahmen{
+    position: relative;
+    border-radius: 200px;
+    background: #800040;
+    padding: 20px; 
+    width: 300px;
+    height: 300px; 
+    left: 450px;
+    bottom: 500px;
+}
+
+.Kontakt{
+    color: #800040;
+    font-weight: bolder;
+    position: relative;
+    right: 385px;
+    margin-top: -400px;
+}
+
+.formular {
+    background: lightgray;
+    font-size: 9pt;
+    color: white;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+    text-align: left;
+    
+}
+
+.formular2 {
+    background: lightgray;
+    font-size: 9pt;
+    color: white;
+    width: 350px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.Datenschutz {
+    font-size: 9pt;
+    color: lightgray;
+    position: relative;
+    right: 265px;
+}
+
+.absenden {
+    font-size: 9pt;
+    color: white;
+    background: lightgray;
+    width: 55px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+}
