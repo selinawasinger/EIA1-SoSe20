@@ -5,8 +5,8 @@ body{
 
 a{
     text-decoration: none;
-    background-color: rgb(143, 236, 205);
-    color: black;
+    background-color:pink;
+    color: white;
     border-radius: 5px;
     font-size: 30px;
     display: flex;
@@ -21,6 +21,6 @@ a{
 }
 
 a:hover{
-    background-color: rgb(54, 57, 110);
+    background-color:black;
     color: white;
 }
