@@ -1,19 +1,17 @@
 section{
   height: 400px;
   width: 600px;
-  margin-top: 300px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  position:relative;
+  position:absolute; 
+  left:50%; top:50%; 
+  margin-left:-300px; 
+  margin-top:-200px;
 }
 
 section>.Karte{
   height: auto;
   width: auto;
   margin-top: 0px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
