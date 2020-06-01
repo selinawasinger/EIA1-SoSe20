@@ -1,4 +1,7 @@
 "use strict";
+
+var insgesamt = africa18 + sa18 + europa18 + na18 + asia18 + australia18
+
 var africa08 = 1028;
 var africa18 = 1235.5;
 
@@ -17,7 +20,6 @@ var asia18 = 16274.1;
 var australia08 = 1993;
 var australia18 = 2100.5;
 
-var insgesamt = af18 + sa18 + eu18 + na18 + as18 + au18
 
 
 var africa18welt = 100 / welt18 * africa18;
