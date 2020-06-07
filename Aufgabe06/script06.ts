@@ -95,7 +95,7 @@ function europaON() {
     document.querySelector("#prozent2").innerHTML = "Relativ zur Gesamtemission der Welt verursacht Europa";
     document.querySelector("#veraenderung1").innerHTML = europa0818 + " %";
     document.querySelector("#veraenderung2").innerHTML = "Veränderung der Emission für Europa in 2018 im Vergleich zu 2008";
-    document.querySelector("#vergleich2").innerHTML = europa + " kg CO2";
+    document.querySelector("#vergleich1").innerHTML = europa + " kg CO2";
     document.querySelector("#vergleich2").innerHTML = "Veränderung in 2018 im Vergleich zu 2008";
 }
 window.addEventListener('load', function(){
@@ -127,8 +127,8 @@ function southamericaON() {
     document.querySelector("#kg1").innerHTML = sa18 + " kg CO2";
     document.querySelector("#kg2").innerHTML = "Die Emission in 2018 von Südamerika";
     document.querySelector("#prozent1").innerHTML = sa18welt + " %";
-    document.querySelector("#prozen2").innerHTML = "Relativ zur Gesamtemission der Welt verursacht Südamerika";
-    document.querySelector("#veraenderun1").innerHTML = sa0818 + " %";
+    document.querySelector("#prozent2").innerHTML = "Relativ zur Gesamtemission der Welt verursacht Südamerika";
+    document.querySelector("#veraenderung1").innerHTML = sa0818 + " %";
     document.querySelector("#veraenderung2").innerHTML = "Veränderung der Emission für Südamerika in 2018 im Vergleich zu 2008";
     document.querySelector("#vergleich1").innerHTML = sa + " kg CO2";
     document.querySelector("#vergleich2").innerHTML = "Veränderung in 2018 im Vergleich zu 2008";
@@ -165,7 +165,7 @@ function asiaON() {
     document.querySelector("#prozent1").innerHTML = asia18welt + " %";
     document.querySelector("#prozent2").innerHTML = "Relativ zur Gesamtemission der Welt verursacht Asien";
     document.querySelector("#veraenderung1").innerHTML = asia0818 + " %";
-    document.querySelector("#veraenderung2").innerHTML = "eränderung der Emission für Asien in 2018 im Vergleich zu 2008";
+    document.querySelector("#veraenderung2").innerHTML = "Veränderung der Emission für Asien in 2018 im Vergleich zu 2008";
     document.querySelector("#vergleich1").innerHTML = asia + " kg CO2";
     document.querySelector("#vergleich2").innerHTML = "Veränderung in 2018 im Vergleich zu 2008";
 }
