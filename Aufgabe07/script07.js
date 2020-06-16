@@ -10,9 +10,8 @@ window.addEventListener("load", function () {
     var soundLaugh2 = new Audio("laugh-2.mp3");
     var soundSnare = new Audio("snare.mp3");
     var sounds = [soundA, soundC, soundF, soundG, soundHihat, soundKick, soundLaugh1, soundLaugh2, soundSnare];
-    // tslint:disable-next-line: typedef
-    function playSample(sound) {
-        sound.play();
+    function playSample(sounds) {
+        sounds.play();
     }
     document.querySelector("#button1").addEventListener("click", function () { playSample(sounds[0]); });
     document.querySelector("#button2").addEventListener("click", function () { playSample(sounds[1]); });
