@@ -1,14 +1,14 @@
 window.addEventListener("load", function () {
-    var soundA:HTMLAudioElement = new Audio("A.mp3");
-    var soundC:HTMLAudioElement = new Audio("C.mp3");
-    var soundF:HTMLAudioElement = new Audio("F.mp3");
-    var soundG:HTMLAudioElement = new Audio("G.mp3");
-    var soundHihat :HTMLAudioElement = new Audio("hihat.mp3");
-    var soundKick:HTMLAudioElement = new Audio("kick.mp3");
-    var soundLaugh1:HTMLAudioElement = new Audio("laugh-1.mp3");
-    var soundLaugh2:HTMLAudioElement = new Audio("laugh-2.mp3");
+    var soundA: HTMLAudioElement = new Audio("A.mp3");
+    var soundC: HTMLAudioElement = new Audio("C.mp3");
+    var soundF: HTMLAudioElement = new Audio("F.mp3");
+    var soundG: HTMLAudioElement = new Audio("G.mp3");
+    var soundHihat: HTMLAudioElement = new Audio("hihat.mp3");
+    var soundKick: HTMLAudioElement = new Audio("kick.mp3");
+    var soundLaugh1: HTMLAudioElement = new Audio("laugh-1.mp3");
+    var soundLaugh2: HTMLAudioElement = new Audio("laugh-2.mp3");
     var soundSnare: HTMLAudioElement = new Audio("snare.mp3");
-    var sounds: any = [soundA, soundC, soundF, soundG, soundHihat, soundKick, soundLaugh1, soundLaugh2, soundSnare];
+    var sounds: HTMLAudioElement = [soundA, soundC, soundF, soundG, soundHihat, soundKick, soundLaugh1, soundLaugh2, soundSnare];
     
     function playSample(sounds:number): void {
         sounds.play();
