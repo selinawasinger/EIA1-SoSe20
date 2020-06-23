@@ -36,10 +36,9 @@ var buttonPlay: HTMLElement = document.querySelector("#play");
 buttonPlay.addEventListener("click", function(){
     playBeat();
 });
-
+var loop: number;
 function playBeat(): void {
 
-   
     var index: number = 0;
 
     function startBeat(): void {
@@ -47,13 +46,12 @@ function playBeat(): void {
         sound.play();
         index += 1;
 
-        if(index > beatArray.length) {
+        if (index > beatArray.length) {
             index = 0;
         }
     }
 
     if (buttonPlay.getAttribute("class") == "fas fa-play-circle") {
-        var loop: number;
         buttonPlay.setAttribute("class", "fas fa-pause-circle");
         loop = setInterval(startBeat, 500);
 
@@ -85,5 +83,5 @@ function recordBeat(): void {
 
 //beatArray löschen:
 document.querySelector("#delete").addEventListener("click", function (){
-    beat = [];
+    beatArray = [];
 })

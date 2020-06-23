@@ -39,6 +39,7 @@ var buttonPlay = document.querySelector("#play");
 buttonPlay.addEventListener("click", function () {
     playBeat();
 });
+var loop;
 function playBeat() {
     var index = 0;
     function startBeat() {
@@ -50,7 +51,6 @@ function playBeat() {
         }
     }
     if (buttonPlay.getAttribute("class") == "fas fa-play-circle") {
-        var loop;
         buttonPlay.setAttribute("class", "fas fa-pause-circle");
         loop = setInterval(startBeat, 500);
     }
@@ -77,6 +77,6 @@ function recordBeat() {
 }
 //beatArray löschen:
 document.querySelector("#delete").addEventListener("click", function () {
-    beat = [];
+    beatArray = [];
 });
 //# sourceMappingURL=script08.js.map
