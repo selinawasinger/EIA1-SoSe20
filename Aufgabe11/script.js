@@ -211,4 +211,36 @@ function deleteTodo(index) {
      */
     drawListToDOM();
 }
+window.addEventListener("load", function () {
+    const artyom = new Artyom();
+    artyom.addCommands({
+        indexes: ["erstelle Aufgabe *"],
+        smart: true,
+        action: function (i, wildcard) {
+            console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            Tasks.unshift({
+                todosText: wildcard,
+                todosChecked: false
+            });
+            drawListToDOM();
+        }
+        //drawListToDOM();
+        //todosDOMElement.innerHTML = wildcard;
+    });
+    function startContinuousArtyom() {
+        artyom.fatality();
+        setTimeout(function () {
+            artyom.initialize({
+                lang: "de-DE",
+                continuous: true,
+                listen: true,
+                interimResults: true,
+                debug: true
+            }).then(function () {
+                console.log("Ready!");
+            });
+        }, 250);
+    }
+    startContinuousArtyom();
+});
 //# sourceMappingURL=script.js.map
